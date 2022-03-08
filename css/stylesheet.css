@@ -1,8 +1,8 @@
 /* CSS Reset */
 html { margin: 0; padding:20px; font-size: 100%; line-height: 1}
-body{background-color: #FDAA95}
+body{background-color: rgb(168, 167, 167)}
 
-h1{color: rgb(114, 134, 250); 
+h1{color: #3c6fdf; 
     font-style: italic;
 font-size: 3rem;}
 
@@ -10,32 +10,47 @@ font-size: 3rem;}
 a:link {
     color: purple
     ;
-    font-size: 20px;
+    font-size: 25px;
   }
   
   /* visited link */
   a:visited {
-    color: green;
-    font-size: 20px;
+    color: #3c6fdf;
+    font-size: 25px;
   }
   
   /* mouse over link */
   a:hover {
     color: pink;
-    font-size: 20px;
+    font-size: 25px;
   }
 
 /* CSS classes */
 .error {color: purple
     ; font-weight: bold;}
 
+
 /* CSS IDS */
 #page_title
-{color: #628AE3;
+{color: #3c6fdf;
     font-weight: bold;
     font-size: 3rem;
     border: 1px black solid;
 padding: 20px;}
 
 #table {color: black;
-font-size: 20px}
+font-size: 25px}
+
+#words {font-size: 20px;}
+
+/* Image */
+.image {
+    background-color: #aaa;
+    width: 100%;
+    padding: 0px;}
+
+/*Create three equal columns that float next to each other */
+.column {
+    float: left;
+    width: 50%;
+  }
